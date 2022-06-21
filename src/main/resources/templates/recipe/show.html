@@ -89,7 +89,7 @@
                   <li>1 Teaspoon of Sugar</li>
                 </ul>
                 <ul>
-                  <li th:each = "ingredient : ${recipe.ingredients}" th:text = "${ingredient.getAmount() + ' ' + ingredient.getUom().getDescription() + '-' + ingredient.description}"></li>
+                  <li th:each = "ingredient : ${recipe.ingredients}" th:text = "${ingredient.getAmount() + ' ' + ingredient.uom.getDescription() + '-' + ingredient.description}"></li>
                 </ul>
               </div>
             </div>
