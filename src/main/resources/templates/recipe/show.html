@@ -9,17 +9,17 @@
 </head>
 <body>
 <div class="container-fluid" style="margin-top: 20px">
-  <div class="row">
+  <div class="row justify-content-center">
     <div class="col-md-6 col-md-offset-3">
-      <div class="pannel-group">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h1 class="panel-title" th:text="${recipe.description}">Recipe Description Here!</h1>
+      <div class="panel-group">
+        <div class="card card-primary border border-primary" style="margin: 20px 0">
+          <div class="card-header bg-primary text-light">
+            <h7 class="card-title" th:text="${recipe.description}">Recipe Description Here!</h7>
           </div>
-          <div class="panel-body">
-            <div class="row">
+          <div class="card-body">
+            <div class="row justify-content-center">
               <div class="col-md-3">
-                <h5>Categories:</h5>
+                <h7>Categories:</h7>
               </div>
               <div class="col-md-9">
                 <ul>
@@ -29,43 +29,43 @@
                 </ul>
               </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-md-3">
-                <h5>Prep Time:</h5>
+                <h7>Prep Time:</h7>
               </div>
               <div class="col-md-3">
                 <p>30 min</p>
               </div>
               <div class="col-md-3">
-                <h5>Difficulty:</h5>
+                <h7>Difficulty:</h7>
               </div>
               <div class="col-md-3">
                 <p>Easy</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-md-3">
-                <h5>Cooktime:</h5>
+                <h7>Cooktime:</h7>
               </div>
               <div class="col-md-3">
                 <p>30 min</p>
               </div>
               <div class="col-md-3">
-                <h5>Servings:</h5>
+                <h7>Servings:</h7>
               </div>
               <div class="col-md-3">
                 <p>4</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-md-3">
-                <h5>Source:</h5>
+                <h7>Source:</h7>
               </div>
               <div class="col-md-3">
                 <p>30 min</p>
               </div>
               <div class="col-md-3">
-                <h5>URL:</h5>
+                <h7>URL:</h7>
               </div>
               <div class="col-md-3">
                 <p>http://www.example.com</p>
@@ -73,12 +73,12 @@
             </div>
           </div>
         </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h1 class="panel-title" >Ingredients</h1>
+        <div class="card card-primary border border-primary" style="margin: 20px 0;">
+          <div class="card-header bg-primary text-light">
+            <h7 class="card-title" >Ingredients</h7>
           </div>
-          <div class="panel-body">
-            <div class="row">
+          <div class="card-body">
+            <div class="row justify-content-center">
               <div class="col-md-12">
                 <ul>
                   <li>1 Cup of milk</li>
@@ -89,24 +89,24 @@
             </div>
           </div>
         </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h1 class="panel-title" >Directions</h1>
+        <div class="card card-primary border border-primary" style="margin: 20px 0;">
+          <div class="card-header bg-primary text-light">
+            <h7 class="card-title" >Directions</h7>
           </div>
-          <div class="panel-body">
-            <div class="row">
+          <div class="card-body">
+            <div class="row justify-content-center">
               <div class="col-md-12">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h1 class="panel-title" >Notes</h1>
+        <div class="card card-primary border border-primary" style="margin: 20px 0;">
+          <div class="card-header bg-primary text-light">
+            <h7 class="card-title" >Notes</h7>
           </div>
-          <div class="panel-body">
-            <div class="row">
+          <div class="card-body">
+            <div class="row justify-content-center">
               <div class="col-md-12">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
               </div>
@@ -119,3 +119,8 @@
 </div>
 </body>
 </html>
+<style>
+  h7{
+    font-weight: bold;
+  }
+</style>
