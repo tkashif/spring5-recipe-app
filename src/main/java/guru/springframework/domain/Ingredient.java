@@ -6,7 +6,8 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-@Data
+@Getter
+@Setter
 @Entity
 public class Ingredient {
 
@@ -15,7 +16,7 @@ public class Ingredient {
     private Long id;
 
     private String description;
-    private BigDecimal amount;
+    private BigDecimal amount = BigDecimal.ZERO;
 
     @OneToOne(fetch = FetchType.EAGER)
     private UnitOfMeasure uom;
